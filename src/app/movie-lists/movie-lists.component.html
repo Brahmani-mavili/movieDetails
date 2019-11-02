@@ -1,0 +1,20 @@
+<div *ngIf="movieLists">
+  <!-- <table>
+    <tr *ngFor="let item of movieLists">
+        <li>
+            <td>title : </td>{{item.title}}
+        </li>
+        <li>
+            <td>Ratings :</td> {{item.vote_average}}
+        </li>
+        <li>
+            <td>overview :</td> {{item.overview}}
+        </li>
+    </tr>
+  </table> -->
+  <ul  class="itemBorder" *ngFor="let item of movieLists" (click)="getMovieDetails(item)">
+    <tr> <td>title </td> {{item.title}} </tr>
+    <tr> <td id="overview">Ratings </td> {{item.vote_average}}</tr>
+    <tr> <td >overview </td> {{item.overview}}</tr>
+  </ul>
+</div>

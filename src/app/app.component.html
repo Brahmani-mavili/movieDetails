@@ -1,0 +1,14 @@
+<div class="bgColor">
+  <div class="titlepos">
+    <h1>
+      Welcome to Movie Hunt
+    </h1>
+  </div>
+  <div class="inputPos">
+    <input type="text" class= "textsize" name="searchValue" [(ngModel)]="searchedValue">
+    <a class="buttonPadding" routerLink="/list" (click)="getMovieDetails()">
+      <button type="button">Search</button>
+    </a>
+  </div>
+</div>
+<router-outlet></router-outlet>

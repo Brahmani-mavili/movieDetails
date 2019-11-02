@@ -1,0 +1,19 @@
+.bgColor{
+    background-color: gray;
+}
+.titlepos{
+    width: 400px;
+    margin: auto;
+}
+.inputPos{
+    position: relative;
+    left: 72%;
+    padding-bottom: 2%;
+}
+.textsize{
+    height: 20px;
+    width: 250px;
+}
+.buttonPadding{
+    padding-left: 0.5%;
+}

@@ -1,0 +1,17 @@
+.itemBorder{
+    border-bottom: 1px dotted black;
+    background-color:white;
+    transition: transform .2s; /* Animation */
+    
+}
+.itemBorder:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 2px grey;
+}
+td {
+    padding-right: 10px;
+    vertical-align: baseline;
+}
+ul {
+    padding-left: 2%;
+}

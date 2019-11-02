@@ -1,0 +1,17 @@
+.flexParent{
+    display: flex;
+    align-items: stretch;
+}
+.flexItem1{
+    flex-basis: 35%;
+    background-color: lavender;
+    max-height: 600px;
+    overflow: auto;
+}
+.flexItem2{
+    flex-basis: 65%;
+    background-color: lavender;
+}
+.verticalLine{
+    border-right: 2px solid black;
+}
